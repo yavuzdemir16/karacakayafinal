@@ -1,0 +1,615 @@
+/* Genel Stil Resetleri ve Temel Ayarlar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6; /* Açık gri bir arka plan */
+    color: #333;
+}
+
+/* Ana Bölümlerin Düzeni */
+#wrapper { /* HTML'de id="wrapper" olduğu için # kullandık */
+    display: flex; /* Flexbox ile yan yana düzenleme */
+    min-height: 100vh; /* Minimum tam ekran yüksekliği */
+    background-color: #f4f7f6; /* Arka plan rengi */
+}
+
+#sidebar { /* HTML'de id="sidebar" olduğu için # kullandık */
+    width: 250px; /* Sabit genişlik */
+    min-height: 100vh;
+    background-color: #343a40; /* Koyu gri sidebar */
+    color: #fff;
+    padding-top: 20px; /* Üstten boşluk */
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1); /* Hafif gölge */
+    flex-shrink: 0; /* İçerik küçülse bile sidebar'ın küçülmesini engelle */
+    transition: all 0.3s; /* Geçiş efekti */
+}
+
+/* İçerik alanı */
+#content { /* HTML'de id="content" olduğu için # kullandık */
+    width: calc(100% - 250px); /* Sidebar genişliğini düşerek kalan tüm genişliği al */
+    padding: 20px;
+    min-height: 100vh;
+    overflow-y: auto; /* İçerik taşarsa kaydırma çubuğu */
+    transition: all 0.3s; /* Geçiş efekti */
+}
+
+
+/* Menü İçeriği (menu.php'den) */
+#sidebar .logo { /* Sidebar içindeki logo */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #495057;
+}
+
+#sidebar .logo a {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+}
+
+#sidebar nav ul { /* Sidebar içindeki nav ul */
+    list-style: none; /* Liste işaretlerini kaldır */
+    padding: 0;
+    margin: 0;
+}
+
+#sidebar nav ul li a { /* Sidebar içindeki nav ul li a */
+    display: block; /* Tüm alanı kapla */
+    padding: 10px 20px;
+    font-size: 1.1em;
+    color: #e9ecef;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#sidebar nav ul li a:hover {
+    color: #007bff; /* Mavi hover rengi */
+    background: #495057; /* Koyu gri arka plan */
+}
+
+
+/* Genel Container Stilleri */
+.container { /* Bu .container hala var, iç içerik için kullanılıyor */
+    width: 90%;
+    max-width: 1200px; /* Maksimum genişlik */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08); /* Hafif bir gölge */
+}
+
+h1, h2, h3 {
+    color: #3f51b5; /* Koyu mavi başlık rengi */
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e0e0e0; /* Hafif bir alt çizgi */
+    padding-bottom: 10px;
+}
+
+/* Mesaj Kutuları (Success/Error) */
+.message {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.message.success {
+    background-color: #28a745; /* Yeşil */
+    border: 1px solid #218838;
+}
+
+.message.error {
+    background-color: #dc3545; /* Kırmızı */
+    border: 1px solid #c82333;
+}
+
+/* Buton Stilleri */
+.btn {
+    display: inline-block; /* Yan yana durmaları için */
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none; /* Alt çizgiyi kaldır */
+    border-radius: 5px; /* Hafif yuvarlak köşeler */
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease; /* Yumuşak geçişler */
+    border: 1px solid transparent; /* Varsayılan şeffaf kenarlık */
+    white-space: nowrap; /* Buton içeriğinin tek satırda kalmasını sağlar */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Mavi */
+    color: #fff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Koyu mavi */
+    border-color: #0056b3;
+}
+
+.btn-success {
+    background-color: #28a745; /* Yeşil */
+    color: #fff;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838; /* Koyu yeşil */
+    border-color: #218838;
+}
+
+.btn-warning {
+    background-color: #ffc107; /* Turuncu */
+    color: #212529; /* Koyu metin */
+    border-color: #ffc107;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800; /* Koyu turuncu */
+    border-color: #e0a800;
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Kırmızı */
+    color: #fff;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* Koyu kırmızı */
+    border-color: #c82333;
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* Gri */
+    color: #fff;
+    border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #545b62; /* Koyu gri */
+    border-color: #545b62;
+}
+
+/* Form Alanları (Input, Select, Textarea) */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block; /* Etiketi üstte göster */
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="number"],
+.form-group input[type="password"],
+.form-group input[type="url"],
+.form-group input[type="date"],
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Padding ve border'ı genişliğe dahil et */
+    font-size: 16px;
+    color: #333;
+}
+
+.form-group input[type="file"] {
+    padding: 5px; /* Dosya seç butonu için daha az padding */
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #007bff; /* Odaklandığında mavi kenarlık */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Hafif gölge */
+    outline: none; /* Varsayılan odak çerçevesini kaldır */
+}
+
+.form-group textarea {
+    resize: vertical; /* Sadece dikey yeniden boyutlandırma */
+}
+
+/* style.css dosyanıza ekleyin */
+
+/* Buton Stilleri bölümüne ekleyin */
+.btn-info {
+    background-color: #17a2b8; /* Açık mavi */
+    color: #fff;
+    border-color: #17a2b8;
+}
+
+.btn-info:hover {
+    background-color: #138496; /* Koyu açık mavi */
+    border-color: #117a8b;
+}
+
+/* Küçük butonlar için stil */
+.btn.btn-sm {
+    padding: 5px 10px; /* Daha küçük padding */
+    font-size: 14px;  /* Daha küçük font boyutu */
+}
+
+/* style.css dosyanıza ekleyin/güncelleyin */
+
+/* Buton Stilleri bölümüne ekleyin */
+.btn-info {
+    background-color: #17a2b8; /* Açık mavi */
+    color: #fff;
+    border-color: #17a2b8;
+}
+
+.btn-info:hover {
+    background-color: #138496; /* Koyu açık mavi */
+    border-color: #117a8b;
+}
+
+/* Küçük butonlar için stil */
+.btn.btn-sm {
+    padding: 5px 10px; /* Daha küçük padding */
+    font-size: 14px;  /* Daha küçük font boyutu */
+}
+
+/* Products.php'ye özel FOTOĞRAF VE GÖRSEL stilleri */
+.product-thumb {
+    width: 60px;   /* Tüm küçük resimler 60px genişliğinde olsun */
+    height: 60px;  /* Tüm küçük resimler 60px yüksekliğinde olsun */
+    object-fit: cover; /* Resmin oranını korurken verilen boyutlara sığdır */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 2px;
+    vertical-align: middle; /* Metinle aynı hizaya gelsin */
+}
+.no-image-text {
+    font-size: 0.75em; /* Daha küçük yazı */
+    color: #888;
+    display: flex; /* Flexbox kullanarak içeriği ortala */
+    justify-content: center; /* Yatayda ortala */
+    align-items: center; /* Dikeyde ortala */
+    width: 60px;
+    height: 60px;
+    border: 1px dashed #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    text-align: center;
+    line-height: 1.2; /* Satır aralığını düzelt */
+}
+.current-image-text {
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #555;
+}
+.current-image-preview {
+    max-width: 150px; /* Önizleme resmi maksimum 150px olsun */
+    height: auto;     /* Oranını koru */
+    border: 1px solid #eee;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #fdfdfd;
+}
+
+/* Tabloya özel KDV ve İşlemler sütunu genişlik ayarı */
+table th:nth-child(9), /* KDV Oranı (%) */
+table td:nth-child(9) {
+    width: 8%; /* Daha dar olsun */
+    text-align: center;
+}
+table th:nth-child(10), /* Aktif Mi? */
+table td:nth-child(10) {
+    width: 6%; /* Daha dar olsun */
+    text-align: center;
+}
+table th:nth-child(11), /* İşlemler */
+table td:nth-child(11) {
+    width: 12%; /* İşlemler butonu için yeterli genişlik */
+    text-align: center;
+    white-space: nowrap; /* Butonların yan yana kalmasını sağlar */
+}
+
+/* Card Stilleri */
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    padding: 15px 20px;
+    border-bottom: 1px solid #eee;
+    background-color: #f9f9f9;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-header h2, .card-header h3 { /* Card başlıkları */
+    margin: 0;
+    color: #3f51b5;
+    border-bottom: none; /* Kendi alt çizgisini kaldır */
+    padding-bottom: 0;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* Responsive Düzenlemeler (isteğe bağlı) */
+@media (max-width: 768px) {
+    #sidebar { /* Küçük ekranlarda sidebar'ı gizle */
+        margin-left: -250px;
+        position: absolute; /* İçeriğin üzerine gelmesi için */
+        z-index: 1000;
+    }
+    #sidebar.active { /* Aktif olunca göster */
+        margin-left: 0;
+    }
+    #content {
+        width: 100%; /* Tüm genişliği kapla */
+    }
+    .container {
+        width: 95%;
+        margin: 10px auto;
+        padding: 10px;
+    }
+    /* Diğer responsive ayarlar */
+}
+/* Bu dosya, önceki style.css içeriğinize ek olarak logo boyutunu ve rengini güncelleyen güncellemeyi içerir. */  
+
+/* Diğer tüm mevcut CSS kodlarınız buraya devam etmeli */  
+
+/* Örneğin, body, #wrapper, #content, #sidebar gibi temel stilleriniz */  
+
+/* Aşağıdaki kısım, logo ve sidebar başlığı için eklediğimiz stillerdir. */  
+
+#sidebar .sidebar-header {  
+    text-align: center;  
+    padding: 20px 0;  
+    background-color: #2c3e50; /* Sidebar'ınızın arka plan rengine göre ayarlayın, örnek olarak koyu bir renk */  
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Hafif bir ayırıcı çizgi */  
+    display: flex; /* İçerikleri dikeyde ortalamak için */  
+    justify-content: center; /* Yatayda ortalamak için */  
+    align-items: center; /* Dikeyde ortalamak için */  
+    min-height: 80px; /* Header için minimum yükseklik */  
+    flex-direction: column; /* İçeriklerin üst üste gelmesi için */  
+}  
+
+#sidebar .sidebar-header .app-logo {  
+    max-width: 100px; /* Logonun yeni maksimum genişliği (orta boy) */  
+    height: auto; /* Oranı koru */  
+    display: block; /* Margin auto için block element olmalı */  
+    margin: 0 auto; /* Yatayda ortala */  
+    padding: 5px; /* Logoya hafif bir boşluk */  
+    border-radius: 5px; /* Hafif yuvarlak köşeler */  
+
+    /* Logoyu beyaza çevirmek için filtre */  
+    /* Not: Bu filtre, logonuzun tek renkli (tercihen koyu) ve şeffaf arkaplanlı (PNG gibi) olması durumunda en iyi sonucu verir. */  
+    /* Eğer logonuz çok renkliyse veya JPEG gibi arkaplanlıysa, bu filtre istenmeyen sonuçlar verebilir. */  
+    filter: invert(100%) grayscale(100%) brightness(200%); /* Beyazlaştırma filtresi */  
+}  
+
+#sidebar .sidebar-header .app-name {  
+    color: #ecf0f1; /* Açık renk metin */  
+    font-size: 1.6em; /* Uygulama adı font boyutu */  
+    margin: 0; /* Varsayılan marginleri sıfırla */  
+    font-weight: 700; /* Kalın font */  
+    letter-spacing: 1px; /* Harf aralığı */  
+}  
+
+/* Sidebar'ınızın genel stilini etkilemeyecek şekilde diğer menü elemanlarını da gözden geçirin */  
+/* Eğer menü.php içeriği çok yukarıda duruyorsa, .sidebar-header altına bir margin-top ekleyebilirsiniz */  
+/* #sidebar nav { margin-top: 20px; } gibi */  
+
+/* Örnek olarak, eğer sidebar'ınızın genel rengi siyahsa */  
+#sidebar {  
+    background-color: #2c3e50; /* Koyu Gri / Lacivert tonu */  
+    color: #ecf0f1; /* Açık metin rengi */  
+    /* ... diğer sidebar stilleriniz ... */  
+}  
+
+/* Dashboard'a özel CSS'ler (eğer style.css içinde tutuyorsanız) */  
+/* Daha önce dashboard.php'ye eklediğimiz <style> etiketindeki tüm kuralları buraya taşıyabilirsiniz */  
+/* Örneğin: */  
+
+/* Global Reset & Base Styles */  
+body {  
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    background-color: #f0f2f5;  
+    color: #333;  
+    margin: 0;  
+    line-height: 1.6;  
+}  
+
+.main-dashboard-container {  
+    max-width: 1400px; /* Daha geniş bir konteyner */  
+    margin: 20px auto;  
+    padding: 0 25px; /* Yanlardan daha fazla boşluk */  
+}  
+
+.dashboard-title {  
+    font-size: 2.5em;  
+    color: #2c3e50;  
+    margin-bottom: 40px;  
+    text-align: center;  
+    font-weight: 700;  
+    letter-spacing: 0.8px;  
+    position: relative;  
+    padding-bottom: 15px;  
+}  
+.dashboard-title::after {  
+    content: '';  
+    position: absolute;  
+    bottom: 0;  
+    left: 50%;  
+    transform: translateX(-50%);  
+    width: 80px;  
+    height: 4px;  
+    background-color: #007bff;  
+    border-radius: 2px;  
+}  
+
+/* Metrics Grid - Tüm Kartlar Tek Düzende */  
+.metrics-grid {  
+    display: grid;  
+    grid-template-columns: repeat(5, 1fr); /* Tam 5 sütunlu sabit düzen */  
+    gap: 25px; /* Kartlar arası boşluk */  
+    margin-bottom: 40px;  
+}  
+
+.metric-card {  
+    background-color: #fff;  
+    padding: 25px;  
+    border-radius: 12px; /* Daha belirgin yuvarlak köşeler */  
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08); /* Daha yumuşak gölge */  
+    display: flex;  
+    flex-direction: column;  
+    justify-content: space-between;  
+    align-items: flex-start; /* Metrikler sola hizalı */  
+    border: 1px solid #e9ecef; /* Hafif kenarlık */  
+    transition: transform 0.3s ease, box-shadow 0.3s ease;  
+    min-height: 100px; /* Minimum kart yüksekliği */  
+}  
+
+.metric-card:hover {  
+    transform: translateY(-5px);  
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12);  
+}  
+
+.metric-label {  
+    font-size: 0.95em;  
+    color: #6c757d;  
+    margin-bottom: 10px;  
+    font-weight: 500;  
+    letter-spacing: 0.2px;  
+}  
+
+.metric-value {  
+    font-size: 2.2em;  
+    font-weight: 700;  
+    line-height: 1;  
+    letter-spacing: -0.8px;  
+    color: #343a40; /* Varsayılan değer rengi */  
+}  
+
+/* Metric Value Colors */  
+.metric-value.green { color: #28a745; }  
+.metric-value.yellow { color: #ffc107; }  
+.metric-value.blue { color: #007bff; }  
+.metric-value.purple { color: #6f42c1; }  
+.metric-value.red { color: #dc3545; }  
+.metric-value.dark-purple { color: #6610f2; }  
+.metric-value.orange { color: #fd7e14; }  
+.metric-value.teal { color: #20c997; }  
+.metric-value.light-blue { color: #17a2b8; }  
+.metric-value.dark-green { color: #218838; }  
+.metric-value.pink { color: #e83e8c; }  
+
+.featured-card {  
+    grid-column: span 1; /* Tek bir sütunu kaplasın */  
+    display: flex;  
+    flex-direction: column;  
+    justify-content: center;  
+    align-items: center;  
+    text-align: center;  
+    background-color: #007bff; /* Öne çıkan kart için arka plan rengi */  
+    color: #fff;  
+}  
+.featured-card .metric-label {  
+    color: rgba(255,255,255,0.8);  
+    font-size: 1.05em;  
+}  
+.featured-card .customer-info {  
+    margin-top: 10px;  
+}  
+.featured-card .customer-name {  
+    font-size: 1.5em;  
+    font-weight: 600;  
+    display: block;  
+    margin-bottom: 5px;  
+    color: #fff;  
+}  
+.featured-card .customer-amount {  
+    font-size: 2.5em;  
+    font-weight: 700;  
+    display: block;  
+    color: #fff;  
+}  
+
+/* Lists Container - Yan Yana Listeler */  
+.lists-container {  
+    display: grid;  
+    grid-template-columns: 1fr; /* Mobil için tek sütun */  
+    gap: 30px;  
+}  
+
+@media (min-width: 992px) { /* Geniş ekranlar için iki sütun */  
+    .lists-container {  
+        grid-template-columns: 1fr 1fr;  
+    }  
+}  
+
+.list-panel {  
+    background-color: #fff;  
+    padding: 30px;  
+    border-radius: 12px;  
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);  
+    border: 1px solid #e9ecef;  
+}  
+
+.list-panel h2 {  
+    font-size: 1.8em;  
+    color: #34495e;  
+    margin-bottom: 25px;  
+    text-align: center;  
+    font-weight: 600;  
+    position: relative;  
+    padding-bottom: 10px;  
+}  
+.list-panel h2::after {  
+    content: '';  
+    position: absolute;  
+    bottom: 0;  
+    left: 50%;  
+    transform: translateX(-50%);  
+    width: 50px;  
+    height: 3px;  
+    background-color: #17a2b8;  
+    border-radius: 2px;  
+}  
+
+.data-table {  
+    width: 100%;  
+    border-collapse: collapse;  
+    margin-top: 15px;  
+}  
+
+.data-table th, .data-table td {  
+    padding: 12px 15px;  
+    text-align: left;  
+    border-bottom: 1
+    
+/* style.css dosyanıza ekleyin */
+.sidebar-header .logo-link {
+    text-decoration: none; /* Linkin alt çizgisini kaldırır */
+    color: inherit; /* Linkin metin rengini üst elementten miras alır */
+    display: block; /* Tam alanı kaplaması için */
+}
+
+/* Eğer linke hover efekti vermek isterseniz */
+.sidebar-header .logo-link:hover .app-logo {
+    opacity: 0.8; /* Logoya hafif bir saydamlık efekti verir */
+    transition: opacity 0.3s ease;
+}

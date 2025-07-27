@@ -1,0 +1,394 @@
+[17-Jul-2025 22:25:40 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined function connect_db() in /home/bursawe5/public_html/karacakaya/includes/header.php:12
+Stack trace:
+#0 /home/bursawe5/public_html/karacakaya/dashboard.php(15): include()
+#1 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/includes/header.php on line 12
+[17-Jul-2025 22:26:42 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::bind_param() in /home/bursawe5/public_html/karacakaya/includes/header.php:16
+Stack trace:
+#0 /home/bursawe5/public_html/karacakaya/dashboard.php(15): include()
+#1 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/includes/header.php on line 16
+[17-Jul-2025 22:33:18 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::bind_param() in /home/bursawe5/public_html/karacakaya/includes/header.php:16
+Stack trace:
+#0 /home/bursawe5/public_html/karacakaya/dashboard.php(15): include()
+#1 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/includes/header.php on line 16
+[17-Jul-2025 22:33:43 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetch_assoc() in /home/bursawe5/public_html/karacakaya/invoicing.php:134
+Stack trace:
+#0 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/invoicing.php on line 134
+[17-Jul-2025 22:33:45 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetch_assoc() in /home/bursawe5/public_html/karacakaya/orders.php:374
+Stack trace:
+#0 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/orders.php on line 374
+[17-Jul-2025 22:34:18 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::get_result() in /home/bursawe5/public_html/karacakaya/dealers.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/dealers.php on line 19
+[17-Jul-2025 22:37:09 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetch_assoc() in /home/bursawe5/public_html/karacakaya/orders.php:374
+Stack trace:
+#0 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/orders.php on line 374
+[17-Jul-2025 22:39:57 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetch_assoc() in /home/bursawe5/public_html/karacakaya/orders.php:374
+Stack trace:
+#0 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/orders.php on line 374
+[17-Jul-2025 22:45:00 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetch_assoc() in /home/bursawe5/public_html/karacakaya/orders.php:374
+Stack trace:
+#0 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/orders.php on line 374
+[17-Jul-2025 22:45:03 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetch_assoc() in /home/bursawe5/public_html/karacakaya/invoicing.php:134
+Stack trace:
+#0 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/invoicing.php on line 134
+[17-Jul-2025 22:50:15 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetch_assoc() in /home/bursawe5/public_html/karacakaya/orders.php:374
+Stack trace:
+#0 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/orders.php on line 374
+[17-Jul-2025 22:57:26 Europe/Istanbul] PHP Fatal error:  Cannot redeclare connect_db() (previously declared in /home/bursawe5/public_html/karacakaya/orders.php:583) in /home/bursawe5/public_html/karacakaya/config.php on line 32
+[17-Jul-2025 22:57:56 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/bursawe5/public_html/karacakaya/orders.php:609
+Stack trace:
+#0 /home/bursawe5/public_html/karacakaya/orders.php(15): check_permission(Array)
+#1 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/orders.php on line 609
+[18-Jul-2025 12:13:03 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/bursawe5/public_html/karacakaya/orders.php:609
+Stack trace:
+#0 /home/bursawe5/public_html/karacakaya/orders.php(15): check_permission(Array)
+#1 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/orders.php on line 609
+[18-Jul-2025 12:13:07 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetch_assoc() in /home/bursawe5/public_html/karacakaya/invoicing.php:134
+Stack trace:
+#0 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/invoicing.php on line 134
+[18-Jul-2025 12:13:13 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetch_assoc() in /home/bursawe5/public_html/karacakaya/invoicing.php:134
+Stack trace:
+#0 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/invoicing.php on line 134
+[18-Jul-2025 12:13:16 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/bursawe5/public_html/karacakaya/orders.php:609
+Stack trace:
+#0 /home/bursawe5/public_html/karacakaya/orders.php(15): check_permission(Array)
+#1 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/orders.php on line 609
+[18-Jul-2025 12:16:59 Europe/Istanbul] PHP Notice:  Undefined index: user_role_id in /home/bursawe5/public_html/karacakaya/orders.php on line 356
+[18-Jul-2025 12:16:59 Europe/Istanbul] PHP Notice:  Undefined index: user_role_id in /home/bursawe5/public_html/karacakaya/orders.php on line 385
+[18-Jul-2025 12:16:59 Europe/Istanbul] PHP Notice:  Undefined index: user_role_id in /home/bursawe5/public_html/karacakaya/orders.php on line 388
+[18-Jul-2025 12:16:59 Europe/Istanbul] PHP Notice:  Undefined index: user_role_id in /home/bursawe5/public_html/karacakaya/orders.php on line 390
+[18-Jul-2025 12:16:59 Europe/Istanbul] PHP Notice:  Undefined index: user_id in /home/bursawe5/public_html/karacakaya/orders.php on line 544
+[18-Jul-2025 12:16:59 Europe/Istanbul] PHP Notice:  Undefined index: user_role_id in /home/bursawe5/public_html/karacakaya/orders.php on line 585
+[18-Jul-2025 12:18:00 Europe/Istanbul] PHP Notice:  Undefined variable: username in /home/bursawe5/public_html/karacakaya/orders.php on line 5
+[18-Jul-2025 12:18:00 Europe/Istanbul] PHP Notice:  Undefined variable: user_id_from_db in /home/bursawe5/public_html/karacakaya/orders.php on line 6
+[18-Jul-2025 12:18:00 Europe/Istanbul] PHP Notice:  Undefined variable: user_role_id_from_db in /home/bursawe5/public_html/karacakaya/orders.php on line 7
+[18-Jul-2025 12:18:00 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined function get_role_name() in /home/bursawe5/public_html/karacakaya/orders.php:550
+Stack trace:
+#0 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/orders.php on line 550
+[18-Jul-2025 12:18:16 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetch_assoc() in /home/bursawe5/public_html/karacakaya/invoicing.php:134
+Stack trace:
+#0 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/invoicing.php on line 134
+[18-Jul-2025 12:18:18 Europe/Istanbul] PHP Notice:  Undefined variable: username in /home/bursawe5/public_html/karacakaya/orders.php on line 5
+[18-Jul-2025 12:18:18 Europe/Istanbul] PHP Notice:  Undefined variable: user_id_from_db in /home/bursawe5/public_html/karacakaya/orders.php on line 6
+[18-Jul-2025 12:18:18 Europe/Istanbul] PHP Notice:  Undefined variable: user_role_id_from_db in /home/bursawe5/public_html/karacakaya/orders.php on line 7
+[18-Jul-2025 12:18:18 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined function check_permission() in /home/bursawe5/public_html/karacakaya/orders.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/orders.php on line 11
+[18-Jul-2025 12:19:11 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetch_assoc() in /home/bursawe5/public_html/karacakaya/invoicing.php:134
+Stack trace:
+#0 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/invoicing.php on line 134
+[18-Jul-2025 12:19:11 Europe/Istanbul] PHP Notice:  Undefined index: user_role_id in /home/bursawe5/public_html/karacakaya/orders.php on line 367
+[18-Jul-2025 12:19:11 Europe/Istanbul] PHP Notice:  Undefined index: user_role_id in /home/bursawe5/public_html/karacakaya/orders.php on line 396
+[18-Jul-2025 12:19:11 Europe/Istanbul] PHP Notice:  Undefined index: user_role_id in /home/bursawe5/public_html/karacakaya/orders.php on line 399
+[18-Jul-2025 12:19:11 Europe/Istanbul] PHP Notice:  Undefined index: user_role_id in /home/bursawe5/public_html/karacakaya/orders.php on line 401
+[18-Jul-2025 12:19:11 Europe/Istanbul] PHP Notice:  Undefined index: user_id in /home/bursawe5/public_html/karacakaya/orders.php on line 555
+[18-Jul-2025 12:19:11 Europe/Istanbul] PHP Notice:  Undefined index: user_role_id in /home/bursawe5/public_html/karacakaya/orders.php on line 596
+[18-Jul-2025 12:19:18 Europe/Istanbul] PHP Notice:  Undefined index: user_role_id in /home/bursawe5/public_html/karacakaya/orders.php on line 367
+[18-Jul-2025 12:19:18 Europe/Istanbul] PHP Notice:  Undefined index: user_role_id in /home/bursawe5/public_html/karacakaya/orders.php on line 396
+[18-Jul-2025 12:19:18 Europe/Istanbul] PHP Notice:  Undefined index: user_role_id in /home/bursawe5/public_html/karacakaya/orders.php on line 399
+[18-Jul-2025 12:19:18 Europe/Istanbul] PHP Notice:  Undefined index: user_role_id in /home/bursawe5/public_html/karacakaya/orders.php on line 401
+[18-Jul-2025 12:19:18 Europe/Istanbul] PHP Notice:  Undefined index: user_id in /home/bursawe5/public_html/karacakaya/orders.php on line 555
+[18-Jul-2025 12:19:18 Europe/Istanbul] PHP Notice:  Undefined index: user_role_id in /home/bursawe5/public_html/karacakaya/orders.php on line 596
+[18-Jul-2025 12:21:57 Europe/Istanbul] Sidebar: user_id session'da tanımlı değil.
+[18-Jul-2025 12:23:36 Europe/Istanbul] Sidebar: user_id session'da tanımlı değil.
+[18-Jul-2025 12:23:44 Europe/Istanbul] PHP Notice:  Undefined index: role_id in /home/bursawe5/public_html/karacakaya/includes/menu.php on line 6
+[18-Jul-2025 12:23:46 Europe/Istanbul] PHP Notice:  Undefined index: role_id in /home/bursawe5/public_html/karacakaya/includes/menu.php on line 6
+[18-Jul-2025 12:23:48 Europe/Istanbul] PHP Notice:  Undefined index: role_id in /home/bursawe5/public_html/karacakaya/includes/menu.php on line 6
+[18-Jul-2025 12:24:01 Europe/Istanbul] PHP Notice:  Undefined index: role_id in /home/bursawe5/public_html/karacakaya/config.php on line 46
+[18-Jul-2025 12:25:27 Europe/Istanbul] PHP Notice:  Undefined index: role_id in /home/bursawe5/public_html/karacakaya/dealers.php on line 278
+[18-Jul-2025 12:25:29 Europe/Istanbul] PHP Notice:  Undefined index: role_id in /home/bursawe5/public_html/karacakaya/includes/menu.php on line 6
+[18-Jul-2025 12:25:30 Europe/Istanbul] PHP Notice:  Undefined index: role_id in /home/bursawe5/public_html/karacakaya/includes/menu.php on line 6
+[18-Jul-2025 12:26:00 Europe/Istanbul] PHP Notice:  Undefined index: role_id in /home/bursawe5/public_html/karacakaya/includes/menu.php on line 6
+[18-Jul-2025 12:28:51 Europe/Istanbul] PHP Notice:  Undefined index: role_id in /home/bursawe5/public_html/karacakaya/dealers.php on line 278
+[18-Jul-2025 12:28:54 Europe/Istanbul] PHP Notice:  Undefined index: role_id in /home/bursawe5/public_html/karacakaya/dealers.php on line 278
+[18-Jul-2025 12:30:09 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetch_assoc() in /home/bursawe5/public_html/karacakaya/invoicing.php:134
+Stack trace:
+#0 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/invoicing.php on line 134
+[18-Jul-2025 12:31:09 Europe/Istanbul] PHP Warning:  Use of undefined constant PDO_ERRMODE_EXCEPTION - assumed 'PDO_ERRMODE_EXCEPTION' (this will throw an Error in a future version of PHP) in /home/bursawe5/public_html/karacakaya/users.php on line 22
+[18-Jul-2025 12:32:10 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetch_assoc() in /home/bursawe5/public_html/karacakaya/invoicing.php:134
+Stack trace:
+#0 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/invoicing.php on line 134
+[18-Jul-2025 12:33:31 Europe/Istanbul] Onaylı siparişler çekilirken hata: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '='
+[18-Jul-2025 12:33:46 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'o.order_code' in 'SELECT' in /home/bursawe5/public_html/karacakaya/shipments.php:142
+Stack trace:
+#0 /home/bursawe5/public_html/karacakaya/shipments.php(142): PDO->query('\r\n    SELECT\r\n ...')
+#1 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/shipments.php on line 142
+[18-Jul-2025 12:34:47 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'o.order_code' in 'SELECT' in /home/bursawe5/public_html/karacakaya/shipments.php:143
+Stack trace:
+#0 /home/bursawe5/public_html/karacakaya/shipments.php(143): PDO->query('\r\n    SELECT\r\n ...')
+#1 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/shipments.php on line 143
+[18-Jul-2025 12:38:20 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1270 Illegal mix of collations (latin1_swedish_ci,IMPLICIT), (utf8mb4_general_ci,COERCIBLE), (utf8mb4_general_ci,COERCIBLE) for operation 'in' in /home/bursawe5/public_html/karacakaya/shipments.php:160
+Stack trace:
+#0 /home/bursawe5/public_html/karacakaya/shipments.php(160): PDO->query('\r\n    SELECT\r\n ...')
+#1 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/shipments.php on line 160
+[18-Jul-2025 13:18:04 Europe/Istanbul] Ürünler çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.created_by' in 'ON'
+[18-Jul-2025 13:20:22 Europe/Istanbul] Ürünler çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.created_by' in 'ON'
+[18-Jul-2025 13:29:49 Europe/Istanbul] Ürünler çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.created_by' in 'ON'
+[18-Jul-2025 13:31:30 Europe/Istanbul] Ürünler çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.created_by' in 'ON'
+[18-Jul-2025 13:32:37 Europe/Istanbul] Ürünler çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.created_by' in 'ON'
+[18-Jul-2025 13:33:42 Europe/Istanbul] Ürünler çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.created_by' in 'ON'
+[18-Jul-2025 13:34:09 Europe/Istanbul] Ürünler çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.created_by' in 'ON'
+[18-Jul-2025 13:36:22 Europe/Istanbul] Sevkiyat oluşturulabilecek siparişler çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'o.order_code' in 'SELECT'
+[18-Jul-2025 13:36:22 Europe/Istanbul] Sevkiyatlar çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'o.order_code' in 'SELECT'
+[18-Jul-2025 13:39:41 Europe/Istanbul] Sevkiyat oluşturulabilecek siparişler çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'o.order_code' in 'SELECT'
+[18-Jul-2025 13:39:41 Europe/Istanbul] Sevkiyatlar çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'o.order_code' in 'SELECT'
+[18-Jul-2025 13:40:49 Europe/Istanbul] Ürünler çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.created_by' in 'ON'
+[18-Jul-2025 13:41:54 Europe/Istanbul] Ürünler çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.created_by' in 'ON'
+[18-Jul-2025 13:41:57 Europe/Istanbul] Ürünler çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.created_by' in 'ON'
+[18-Jul-2025 13:42:01 Europe/Istanbul] Ürünler çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.created_by' in 'ON'
+[18-Jul-2025 13:42:04 Europe/Istanbul] Ürünler çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.created_by' in 'ON'
+[18-Jul-2025 13:47:12 Europe/Istanbul] Ürünler çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.created_by' in 'ON'
+[18-Jul-2025 13:48:56 Europe/Istanbul] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/bursawe5/public_html/karacakaya/orders.php on line 1536
+[18-Jul-2025 13:48:58 Europe/Istanbul] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/bursawe5/public_html/karacakaya/orders.php on line 1536
+[18-Jul-2025 13:49:05 Europe/Istanbul] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/bursawe5/public_html/karacakaya/orders.php on line 1536
+[18-Jul-2025 13:52:15 Europe/Istanbul] Ürünler çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.created_by' in 'ON'
+[18-Jul-2025 13:52:22 Europe/Istanbul] Sevkiyat oluşturulabilecek siparişler çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'o.order_code' in 'SELECT'
+[18-Jul-2025 13:52:22 Europe/Istanbul] Sevkiyatlar çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'o.order_code' in 'SELECT'
+[18-Jul-2025 14:08:01 Europe/Istanbul] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/bursawe5/public_html/karacakaya/users.php on line 250
+[18-Jul-2025 14:08:04 Europe/Istanbul] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/bursawe5/public_html/karacakaya/users.php on line 250
+[18-Jul-2025 14:13:08 Europe/Istanbul] Add User Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updated_at' in 'INSERT INTO'
+[18-Jul-2025 14:15:54 Europe/Istanbul] Ürünler çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.created_by' in 'ON'
+[18-Jul-2025 14:16:18 Europe/Istanbul] Ürün eklenirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'created_by' in 'INSERT INTO'
+[18-Jul-2025 14:16:18 Europe/Istanbul] Ürünler çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.created_by' in 'ON'
+[18-Jul-2025 14:18:48 Europe/Istanbul] Ürünler çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.created_by' in 'ON'
+[18-Jul-2025 14:19:09 Europe/Istanbul] PHP Notice:  Undefined index: address in /home/bursawe5/public_html/karacakaya/customers.php on line 52
+[18-Jul-2025 14:19:09 Europe/Istanbul] Müşteri güncellenirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'address_line1' in 'SET'
+[18-Jul-2025 14:22:11 Europe/Istanbul] PHP Notice:  Undefined index: address in /home/bursawe5/public_html/karacakaya/customers.php on line 52
+[18-Jul-2025 14:24:04 Europe/Istanbul] Ürünler çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.created_by' in 'ON'
+[18-Jul-2025 14:36:39 Europe/Istanbul] Ürünler çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.created_by' in 'ON'
+[18-Jul-2025 14:40:05 Europe/Istanbul] Ürünler çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.created_by' in 'ON'
+[18-Jul-2025 14:40:06 Europe/Istanbul] Ürünler çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.created_by' in 'ON'
+[18-Jul-2025 14:40:11 Europe/Istanbul] Ürünler çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.created_by' in 'ON'
+[18-Jul-2025 14:51:37 Europe/Istanbul] PHP Parse error:  syntax error, unexpected end of file in /home/bursawe5/public_html/karacakaya/orders.php on line 1006
+[18-Jul-2025 14:51:39 Europe/Istanbul] PHP Parse error:  syntax error, unexpected end of file in /home/bursawe5/public_html/karacakaya/orders.php on line 1006
+[18-Jul-2025 15:55:36 Europe/Istanbul] PHP Parse error:  syntax error, unexpected end of file in /home/bursawe5/public_html/karacakaya/orders.php on line 1006
+[18-Jul-2025 15:56:13 Europe/Istanbul] PHP Parse error:  syntax error, unexpected end of file in /home/bursawe5/public_html/karacakaya/orders.php on line 1006
+[18-Jul-2025 15:59:19 Europe/Istanbul] PHP Parse error:  syntax error, unexpected end of file in /home/bursawe5/public_html/karacakaya/orders.php on line 1022
+[18-Jul-2025 15:59:20 Europe/Istanbul] PHP Parse error:  syntax error, unexpected end of file in /home/bursawe5/public_html/karacakaya/orders.php on line 1022
+[18-Jul-2025 15:59:23 Europe/Istanbul] PHP Parse error:  syntax error, unexpected end of file in /home/bursawe5/public_html/karacakaya/orders.php on line 1022
+[18-Jul-2025 15:59:27 Europe/Istanbul] PHP Parse error:  syntax error, unexpected end of file in /home/bursawe5/public_html/karacakaya/orders.php on line 1022
+[18-Jul-2025 16:00:30 Europe/Istanbul] PHP Parse error:  syntax error, unexpected end of file in /home/bursawe5/public_html/karacakaya/orders.php on line 1043
+[18-Jul-2025 16:00:31 Europe/Istanbul] PHP Parse error:  syntax error, unexpected end of file in /home/bursawe5/public_html/karacakaya/orders.php on line 1043
+[18-Jul-2025 16:00:31 Europe/Istanbul] PHP Parse error:  syntax error, unexpected end of file in /home/bursawe5/public_html/karacakaya/orders.php on line 1043
+[18-Jul-2025 16:00:44 Europe/Istanbul] PHP Parse error:  syntax error, unexpected end of file in /home/bursawe5/public_html/karacakaya/orders.php on line 1042
+[18-Jul-2025 16:00:44 Europe/Istanbul] PHP Parse error:  syntax error, unexpected end of file in /home/bursawe5/public_html/karacakaya/orders.php on line 1042
+[18-Jul-2025 16:02:37 Europe/Istanbul] PHP Parse error:  syntax error, unexpected end of file in /home/bursawe5/public_html/karacakaya/orders.php on line 1094
+[18-Jul-2025 16:02:38 Europe/Istanbul] PHP Parse error:  syntax error, unexpected end of file in /home/bursawe5/public_html/karacakaya/orders.php on line 1094
+[18-Jul-2025 16:06:25 Europe/Istanbul] PHP Parse error:  syntax error, unexpected end of file in /home/bursawe5/public_html/karacakaya/orders.php on line 1080
+[18-Jul-2025 16:13:33 Europe/Istanbul] Sipariş listesi çekilirken hata oluştu: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'o.current_approver_role_id' in 'ON'
+[18-Jul-2025 16:15:03 Europe/Istanbul] Sipariş listesi çekilirken hata oluştu: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'o.current_approver_role_id' in 'ON'
+[18-Jul-2025 16:15:57 Europe/Istanbul] Sipariş oluşturulurken hata oluştu: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'current_approver_role_id' in 'INSERT INTO'
+[18-Jul-2025 16:15:57 Europe/Istanbul] Sipariş listesi çekilirken hata oluştu: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'o.current_approver_role_id' in 'ON'
+[18-Jul-2025 16:23:55 Europe/Istanbul] Sevkiyat oluşturulabilecek siparişler çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'o.order_code' in 'SELECT'
+[18-Jul-2025 16:23:55 Europe/Istanbul] Sevkiyatlar çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'o.order_code' in 'SELECT'
+[18-Jul-2025 16:29:00 Europe/Istanbul] Sevkiyatlar çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.is_active' in 'WHERE'
+[18-Jul-2025 16:30:37 Europe/Istanbul] Sevkiyatlar çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.is_active' in 'WHERE'
+[18-Jul-2025 16:30:38 Europe/Istanbul] Sevkiyatlar çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.is_active' in 'WHERE'
+[18-Jul-2025 16:44:17 Europe/Istanbul] Sipariş oluşturulurken hata oluştu: Bayinin cari hesabı limiti aşıyor. Mevcut borç: 30,625.00, Limit: 30,999.98, Bu sipariş: 5,000.00
+[18-Jul-2025 23:16:03 Europe/Istanbul] Sevkiyat oluşturulabilecek siparişler çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'o.invoice_number' in 'SELECT'
+[18-Jul-2025 23:16:03 Europe/Istanbul] Sevkiyatlar çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'o.invoice_number' in 'SELECT'
+[18-Jul-2025 23:27:09 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH), expecting end of file in /home/bursawe5/public_html/karacakaya/invoicing.php on line 230
+[18-Jul-2025 23:27:13 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH), expecting end of file in /home/bursawe5/public_html/karacakaya/invoicing.php on line 230
+[18-Jul-2025 23:38:22 Europe/Istanbul] Müşteri listesi çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.last_payment_date' in 'SELECT'
+[18-Jul-2025 23:38:24 Europe/Istanbul] Müşteri listesi çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.last_payment_date' in 'SELECT'
+[18-Jul-2025 23:38:28 Europe/Istanbul] Müşteri listesi çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.last_payment_date' in 'SELECT'
+[18-Jul-2025 23:38:30 Europe/Istanbul] Müşteri listesi çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.last_payment_date' in 'SELECT'
+[18-Jul-2025 23:39:17 Europe/Istanbul] Müşteri listesi çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.last_payment_date' in 'SELECT'
+[18-Jul-2025 23:41:02 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bursawe5_karacakaya.customer_payments' doesn't exist in /home/bursawe5/public_html/karacakaya/accounting.php:140
+Stack trace:
+#0 /home/bursawe5/public_html/karacakaya/accounting.php(140): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/accounting.php on line 140
+[18-Jul-2025 23:41:49 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bursawe5_karacakaya.customer_payments' doesn't exist in /home/bursawe5/public_html/karacakaya/accounting.php:140
+Stack trace:
+#0 /home/bursawe5/public_html/karacakaya/accounting.php(140): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/accounting.php on line 140
+[18-Jul-2025 23:44:23 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '<>' in /home/bursawe5/public_html/karacakaya/accounting.php:140
+Stack trace:
+#0 /home/bursawe5/public_html/karacakaya/accounting.php(140): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/accounting.php on line 140
+[18-Jul-2025 23:47:01 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '<>' in /home/bursawe5/public_html/karacakaya/accounting.php:140
+Stack trace:
+#0 /home/bursawe5/public_html/karacakaya/accounting.php(140): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/accounting.php on line 140
+[18-Jul-2025 23:49:19 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1253 COLLATION 'utf8mb4_general_ci' is not valid for CHARACTER SET 'latin1' in /home/bursawe5/public_html/karacakaya/accounting.php:143
+Stack trace:
+#0 /home/bursawe5/public_html/karacakaya/accounting.php(143): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/accounting.php on line 143
+[18-Jul-2025 23:50:29 Europe/Istanbul] PHP Notice:  Undefined index: user_user_id in /home/bursawe5/public_html/karacakaya/accounting.php on line 18
+[18-Jul-2025 23:50:33 Europe/Istanbul] PHP Notice:  Undefined index: user_user_id in /home/bursawe5/public_html/karacakaya/accounting.php on line 18
+[18-Jul-2025 23:50:35 Europe/Istanbul] PHP Notice:  Undefined index: user_user_id in /home/bursawe5/public_html/karacakaya/accounting.php on line 18
+[18-Jul-2025 23:50:35 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1253 COLLATION 'latin1_swedish_ci' is not valid for CHARACTER SET 'utf8mb4' in /home/bursawe5/public_html/karacakaya/accounting.php:144
+Stack trace:
+#0 /home/bursawe5/public_html/karacakaya/accounting.php(144): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/accounting.php on line 144
+[18-Jul-2025 23:51:08 Europe/Istanbul] PHP Notice:  Undefined index: user_user_id in /home/bursawe5/public_html/karacakaya/accounting.php on line 18
+[18-Jul-2025 23:51:08 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1253 COLLATION 'latin1_swedish_ci' is not valid for CHARACTER SET 'utf8mb4' in /home/bursawe5/public_html/karacakaya/accounting.php:144
+Stack trace:
+#0 /home/bursawe5/public_html/karacakaya/accounting.php(144): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/accounting.php on line 144
+[18-Jul-2025 23:52:53 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '<>' in /home/bursawe5/public_html/karacakaya/accounting.php:143
+Stack trace:
+#0 /home/bursawe5/public_html/karacakaya/accounting.php(143): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/accounting.php on line 143
+[18-Jul-2025 23:55:07 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '<>' in /home/bursawe5/public_html/karacakaya/accounting.php:143
+Stack trace:
+#0 /home/bursawe5/public_html/karacakaya/accounting.php(143): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/accounting.php on line 143
+[19-Jul-2025 08:30:37 Europe/Istanbul] PHP Warning:  require_once(/home/bursawe5/public_html/karacakaya/PhpSpreadsheet/Autoloader.php): failed to open stream: No such file or directory in /home/bursawe5/public_html/karacakaya/accounting.php on line 4
+[19-Jul-2025 08:30:37 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required '/home/bursawe5/public_html/karacakaya/PhpSpreadsheet/Autoloader.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bursawe5/public_html/karacakaya/accounting.php on line 4
+[19-Jul-2025 08:30:43 Europe/Istanbul] PHP Warning:  require_once(/home/bursawe5/public_html/karacakaya/PhpSpreadsheet/Autoloader.php): failed to open stream: No such file or directory in /home/bursawe5/public_html/karacakaya/accounting.php on line 4
+[19-Jul-2025 08:30:43 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required '/home/bursawe5/public_html/karacakaya/PhpSpreadsheet/Autoloader.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bursawe5/public_html/karacakaya/accounting.php on line 4
+[19-Jul-2025 08:38:09 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/bursawe5/public_html/karacakaya/accounting.php on line 165
+[19-Jul-2025 08:38:12 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/bursawe5/public_html/karacakaya/accounting.php on line 165
+[19-Jul-2025 08:45:23 Europe/Istanbul] PHP Warning:  require_once(/home/bursawe5/public_html/karacakaya/PhpSpreadsheet/Autoloader.php): failed to open stream: No such file or directory in /home/bursawe5/public_html/karacakaya/accounting.php on line 11
+[19-Jul-2025 08:45:23 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required '/home/bursawe5/public_html/karacakaya/PhpSpreadsheet/Autoloader.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bursawe5/public_html/karacakaya/accounting.php on line 11
+[19-Jul-2025 09:16:45 Europe/Istanbul] PHP Parse error:  syntax error, unexpected ',' in /home/bursawe5/public_html/karacakaya/PhpSpreadsheet/IOFactory.php on line 195
+[19-Jul-2025 09:18:14 Europe/Istanbul] PHP Warning:  require_once(/home/bursawe5/public_html/karacakayapublic_html/karacakaya/PhpSpreadsheet/IOFactory.php): failed to open stream: No such file or directory in /home/bursawe5/public_html/karacakaya/accounting.php on line 12
+[19-Jul-2025 09:18:14 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required '/home/bursawe5/public_html/karacakayapublic_html/karacakaya/PhpSpreadsheet/IOFactory.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bursawe5/public_html/karacakaya/accounting.php on line 12
+[19-Jul-2025 09:18:37 Europe/Istanbul] PHP Warning:  require_once(/home/bursawe5/public_html/karacakayakaracakaya/PhpSpreadsheet/IOFactory.php): failed to open stream: No such file or directory in /home/bursawe5/public_html/karacakaya/accounting.php on line 12
+[19-Jul-2025 09:18:37 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required '/home/bursawe5/public_html/karacakayakaracakaya/PhpSpreadsheet/IOFactory.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bursawe5/public_html/karacakaya/accounting.php on line 12
+[19-Jul-2025 09:18:38 Europe/Istanbul] PHP Warning:  require_once(/home/bursawe5/public_html/karacakayakaracakaya/PhpSpreadsheet/IOFactory.php): failed to open stream: No such file or directory in /home/bursawe5/public_html/karacakaya/accounting.php on line 12
+[19-Jul-2025 09:18:38 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required '/home/bursawe5/public_html/karacakayakaracakaya/PhpSpreadsheet/IOFactory.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bursawe5/public_html/karacakaya/accounting.php on line 12
+[19-Jul-2025 09:18:39 Europe/Istanbul] PHP Warning:  require_once(/home/bursawe5/public_html/karacakayakaracakaya/PhpSpreadsheet/IOFactory.php): failed to open stream: No such file or directory in /home/bursawe5/public_html/karacakaya/accounting.php on line 12
+[19-Jul-2025 09:18:39 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required '/home/bursawe5/public_html/karacakayakaracakaya/PhpSpreadsheet/IOFactory.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bursawe5/public_html/karacakaya/accounting.php on line 12
+[19-Jul-2025 09:18:51 Europe/Istanbul] PHP Warning:  require_once(/home/bursawe5/public_html/karacakaya../PhpSpreadsheet/IOFactory.php): failed to open stream: No such file or directory in /home/bursawe5/public_html/karacakaya/accounting.php on line 12
+[19-Jul-2025 09:18:51 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required '/home/bursawe5/public_html/karacakaya../PhpSpreadsheet/IOFactory.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bursawe5/public_html/karacakaya/accounting.php on line 12
+[19-Jul-2025 09:19:01 Europe/Istanbul] PHP Warning:  require_once(/home/bursawe5/public_html/karacakayaPhpSpreadsheet/IOFactory.php): failed to open stream: No such file or directory in /home/bursawe5/public_html/karacakaya/accounting.php on line 12
+[19-Jul-2025 09:19:01 Europe/Istanbul] PHP Fatal error:  require_once(): Failed opening required '/home/bursawe5/public_html/karacakayaPhpSpreadsheet/IOFactory.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bursawe5/public_html/karacakaya/accounting.php on line 12
+[19-Jul-2025 09:20:45 Europe/Istanbul] PHP Parse error:  syntax error, unexpected ',' in /home/bursawe5/public_html/karacakaya/PhpSpreadsheet/IOFactory.php on line 195
+[19-Jul-2025 09:20:46 Europe/Istanbul] PHP Parse error:  syntax error, unexpected ',' in /home/bursawe5/public_html/karacakaya/PhpSpreadsheet/IOFactory.php on line 195
+[19-Jul-2025 09:32:30 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tax_id_number' in 'SELECT' in /home/bursawe5/public_html/karacakaya/accounting.php:119
+Stack trace:
+#0 /home/bursawe5/public_html/karacakaya/accounting.php(119): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/accounting.php on line 119
+[19-Jul-2025 09:32:34 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tax_id_number' in 'SELECT' in /home/bursawe5/public_html/karacakaya/accounting.php:119
+Stack trace:
+#0 /home/bursawe5/public_html/karacakaya/accounting.php(119): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/accounting.php on line 119
+[19-Jul-2025 09:36:40 Europe/Istanbul] PHP Notice:  Undefined index: user_user_id in /home/bursawe5/public_html/karacakaya/accounting.php on line 18
+[19-Jul-2025 09:36:43 Europe/Istanbul] PHP Notice:  Undefined index: user_user_id in /home/bursawe5/public_html/karacakaya/accounting.php on line 18
+[19-Jul-2025 09:36:45 Europe/Istanbul] PHP Notice:  Undefined index: user_user_id in /home/bursawe5/public_html/karacakaya/accounting.php on line 18
+[19-Jul-2025 09:36:48 Europe/Istanbul] PHP Notice:  Undefined index: user_user_id in /home/bursawe5/public_html/karacakaya/accounting.php on line 18
+[19-Jul-2025 10:05:46 Europe/Istanbul] PHP Parse error:  syntax error, unexpected '<' in /home/bursawe5/public_html/karacakaya/users.php on line 443
+[19-Jul-2025 10:05:56 Europe/Istanbul] PHP Parse error:  syntax error, unexpected '<' in /home/bursawe5/public_html/karacakaya/users.php on line 443
+[19-Jul-2025 10:05:58 Europe/Istanbul] PHP Parse error:  syntax error, unexpected '<' in /home/bursawe5/public_html/karacakaya/users.php on line 443
+[19-Jul-2025 10:23:37 Europe/Istanbul] Dashboard Latest Orders Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'o.customer_id' in 'ON'
+[19-Jul-2025 10:23:41 Europe/Istanbul] Dashboard Latest Orders Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'o.customer_id' in 'ON'
+[19-Jul-2025 10:23:42 Europe/Istanbul] Dashboard Latest Orders Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'o.customer_id' in 'ON'
+[19-Jul-2025 10:29:34 Europe/Istanbul] Dashboard Critical Receivables Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'total_sales' in 'SELECT'
+[19-Jul-2025 10:31:36 Europe/Istanbul] Dashboard veri çekme hatası: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'current_debt' in 'SELECT'
+[19-Jul-2025 10:31:36 Europe/Istanbul] Dashboard Critical Receivables Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'current_debt' in 'SELECT'
+[19-Jul-2025 10:35:45 Europe/Istanbul] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/bursawe5/public_html/karacakaya/dashboard.php on line 178
+[19-Jul-2025 10:35:47 Europe/Istanbul] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/bursawe5/public_html/karacakaya/dashboard.php on line 178
+[19-Jul-2025 10:37:47 Europe/Istanbul] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or quoted-string and whitespace (T_ENCAPSED_AND_WHITESPACE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/bursawe5/public_html/karacakaya/dashboard.php on line 177
+[19-Jul-2025 10:37:51 Europe/Istanbul] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or quoted-string and whitespace (T_ENCAPSED_AND_WHITESPACE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/bursawe5/public_html/karacakaya/dashboard.php on line 177
+[19-Jul-2025 11:39:36 Europe/Istanbul] PHP Parse error:  syntax error, unexpected end of file in /home/bursawe5/public_html/karacakaya/invoicing.php on line 1006
+[19-Jul-2025 11:39:38 Europe/Istanbul] PHP Parse error:  syntax error, unexpected end of file in /home/bursawe5/public_html/karacakaya/invoicing.php on line 1006
+[19-Jul-2025 11:41:44 Europe/Istanbul] PHP Parse error:  syntax error, unexpected end of file in /home/bursawe5/public_html/karacakaya/invoicing.php on line 1005
+[19-Jul-2025 11:44:39 Europe/Istanbul] PHP Fatal error:  Label 'end_post_processing_invoices' already defined in /home/bursawe5/public_html/karacakaya/invoicing.php on line 467
+[19-Jul-2025 16:00:10 Europe/Istanbul] Müşteriler (bayiler) çekilirken hata oluştu: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fixed_asset_credit_limit' in 'SELECT'
+[19-Jul-2025 16:00:10 Europe/Istanbul] Sipariş listesi çekilirken hata oluştu: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.fixed_asset_current_debt' in 'SELECT'
+[19-Jul-2025 16:00:28 Europe/Istanbul] Müşteriler (bayiler) çekilirken hata oluştu: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fixed_asset_credit_limit' in 'SELECT'
+[19-Jul-2025 16:01:22 Europe/Istanbul] Müşteriler (bayiler) çekilirken hata oluştu: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fixed_asset_credit_limit' in 'SELECT'
+[19-Jul-2025 16:01:22 Europe/Istanbul] Sipariş listesi çekilirken hata oluştu: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.fixed_asset_current_debt' in 'SELECT'
+[19-Jul-2025 16:08:42 Europe/Istanbul] Sipariş oluşturulurken hata oluştu: Bayinin DEMİRBAŞ cari hesabı limiti aşıyor. Mevcut borç: 0.00, Limit: 0.00, Bu sipariş (demirbaş): 18,200.00
+[19-Jul-2025 16:23:20 Europe/Istanbul] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/bursawe5/public_html/karacakaya/orders.php on line 1346
+[19-Jul-2025 16:23:44 Europe/Istanbul] Kategoriler çekilirken hata oluştu: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bursawe5_karacakaya.categories' doesn't exist
+[19-Jul-2025 16:23:44 Europe/Istanbul] Ürün listesi çekilirken hata oluştu: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bursawe5_karacakaya.categories' doesn't exist
+[19-Jul-2025 16:37:55 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'debt_type_paid_for' in 'SELECT' in /home/bursawe5/public_html/karacakaya/accounting.php:267
+Stack trace:
+#0 /home/bursawe5/public_html/karacakaya/accounting.php(267): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/accounting.php on line 267
+[19-Jul-2025 16:37:59 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'debt_type_paid_for' in 'SELECT' in /home/bursawe5/public_html/karacakaya/accounting.php:267
+Stack trace:
+#0 /home/bursawe5/public_html/karacakaya/accounting.php(267): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/bursawe5/public_html/karacakaya/accounting.php on line 267
+[19-Jul-2025 16:48:25 Europe/Istanbul] Kategoriler çekilirken hata: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bursawe5_karacakaya.categories' doesn't exist
+[19-Jul-2025 16:48:25 Europe/Istanbul] Ürünler çekilirken hata: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bursawe5_karacakaya.categories' doesn't exist
+[19-Jul-2025 17:02:36 Europe/Istanbul] Kategoriler çekilirken hata: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bursawe5_karacakaya.categories' doesn't exist
+[19-Jul-2025 17:02:36 Europe/Istanbul] Ürünler çekilirken hata: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bursawe5_karacakaya.categories' doesn't exist
+[19-Jul-2025 17:02:37 Europe/Istanbul] Kategoriler çekilirken hata: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bursawe5_karacakaya.categories' doesn't exist
+[19-Jul-2025 17:02:37 Europe/Istanbul] Ürünler çekilirken hata: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bursawe5_karacakaya.categories' doesn't exist
+[19-Jul-2025 17:08:22 Europe/Istanbul] Kategoriler çekilirken hata oluştu: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bursawe5_karacakaya.categories' doesn't exist
+[19-Jul-2025 17:08:22 Europe/Istanbul] Ürün listesi çekilirken hata oluştu: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bursawe5_karacakaya.categories' doesn't exist
+[19-Jul-2025 18:03:51 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'code' (T_STRING), expecting ';' or ',' in /home/bursawe5/public_html/karacakaya/orders.php on line 866
+[19-Jul-2025 18:04:42 Europe/Istanbul] Siparişler çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'o.customer_id' in 'ON'
+[19-Jul-2025 18:06:25 Europe/Istanbul] Siparişler çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'o.customer_id' in 'ON'
+[19-Jul-2025 18:12:01 Europe/Istanbul] Siparişler çekilirken hata: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'o.customer_id' in 'ON'
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: total_vat_amount in /home/bursawe5/public_html/karacakaya/orders.php on line 377
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: grand_total in /home/bursawe5/public_html/karacakaya/orders.php on line 378
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: status in /home/bursawe5/public_html/karacakaya/orders.php on line 379
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: total_vat_amount in /home/bursawe5/public_html/karacakaya/orders.php on line 377
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: grand_total in /home/bursawe5/public_html/karacakaya/orders.php on line 378
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: status in /home/bursawe5/public_html/karacakaya/orders.php on line 379
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: total_vat_amount in /home/bursawe5/public_html/karacakaya/orders.php on line 377
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: grand_total in /home/bursawe5/public_html/karacakaya/orders.php on line 378
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: status in /home/bursawe5/public_html/karacakaya/orders.php on line 379
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: total_vat_amount in /home/bursawe5/public_html/karacakaya/orders.php on line 377
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: grand_total in /home/bursawe5/public_html/karacakaya/orders.php on line 378
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: status in /home/bursawe5/public_html/karacakaya/orders.php on line 379
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: total_vat_amount in /home/bursawe5/public_html/karacakaya/orders.php on line 377
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: grand_total in /home/bursawe5/public_html/karacakaya/orders.php on line 378
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: status in /home/bursawe5/public_html/karacakaya/orders.php on line 379
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: total_vat_amount in /home/bursawe5/public_html/karacakaya/orders.php on line 377
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: grand_total in /home/bursawe5/public_html/karacakaya/orders.php on line 378
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: status in /home/bursawe5/public_html/karacakaya/orders.php on line 379
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: total_vat_amount in /home/bursawe5/public_html/karacakaya/orders.php on line 377
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: grand_total in /home/bursawe5/public_html/karacakaya/orders.php on line 378
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: status in /home/bursawe5/public_html/karacakaya/orders.php on line 379
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: total_vat_amount in /home/bursawe5/public_html/karacakaya/orders.php on line 377
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: grand_total in /home/bursawe5/public_html/karacakaya/orders.php on line 378
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: status in /home/bursawe5/public_html/karacakaya/orders.php on line 379
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: total_vat_amount in /home/bursawe5/public_html/karacakaya/orders.php on line 377
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: grand_total in /home/bursawe5/public_html/karacakaya/orders.php on line 378
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: status in /home/bursawe5/public_html/karacakaya/orders.php on line 379
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: total_vat_amount in /home/bursawe5/public_html/karacakaya/orders.php on line 377
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: grand_total in /home/bursawe5/public_html/karacakaya/orders.php on line 378
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: status in /home/bursawe5/public_html/karacakaya/orders.php on line 379
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: total_vat_amount in /home/bursawe5/public_html/karacakaya/orders.php on line 377
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: grand_total in /home/bursawe5/public_html/karacakaya/orders.php on line 378
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: status in /home/bursawe5/public_html/karacakaya/orders.php on line 379
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: total_vat_amount in /home/bursawe5/public_html/karacakaya/orders.php on line 377
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: grand_total in /home/bursawe5/public_html/karacakaya/orders.php on line 378
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: status in /home/bursawe5/public_html/karacakaya/orders.php on line 379
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: total_vat_amount in /home/bursawe5/public_html/karacakaya/orders.php on line 377
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: grand_total in /home/bursawe5/public_html/karacakaya/orders.php on line 378
+[19-Jul-2025 18:12:21 Europe/Istanbul] PHP Notice:  Undefined index: status in /home/bursawe5/public_html/karacakaya/orders.php on line 379
